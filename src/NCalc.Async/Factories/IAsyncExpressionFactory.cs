@@ -1,6 +1,6 @@
-﻿using NCalc.Domain;
+﻿using NCalcUnity.Domain;
 
-namespace NCalc.Factories;
+namespace NCalcUnity.Factories;
 
 public interface IAsyncExpressionFactory
 {

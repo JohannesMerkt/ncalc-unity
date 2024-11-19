@@ -1,9 +1,9 @@
-﻿using NCalc.Domain;
-using NCalc.Factories;
-using NCalc.Tests.TestData;
+﻿using NCalcUnity.Domain;
+using NCalcUnity.Factories;
+using NCalcUnity.Tests.TestData;
 using Newtonsoft.Json;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Async")]
 public class AsyncTests

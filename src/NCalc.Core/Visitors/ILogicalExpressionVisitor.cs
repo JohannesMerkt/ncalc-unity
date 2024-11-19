@@ -1,6 +1,6 @@
-using NCalc.Domain;
+using NCalcUnity.Domain;
 
-namespace NCalc.Visitors;
+namespace NCalcUnity.Visitors;
 
 /// <summary>
 /// Defines methods to visit different types of logical expressions in an abstract syntax tree (AST).

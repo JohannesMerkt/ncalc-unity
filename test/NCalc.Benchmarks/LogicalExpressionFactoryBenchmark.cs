@@ -1,11 +1,11 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
 using Microsoft.Extensions.Logging;
-using NCalc.Antlr;
-using NCalc.Domain;
-using NCalc.Factories;
+using NCalcUnity.Antlr;
+using NCalcUnity.Domain;
+using NCalcUnity.Factories;
 
-namespace NCalc.Benchmarks;
+namespace NCalcUnity.Benchmarks;
 
 [RankColumn]
 [CategoriesColumn]

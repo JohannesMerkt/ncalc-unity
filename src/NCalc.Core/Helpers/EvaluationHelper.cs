@@ -1,8 +1,8 @@
 using System.Text.RegularExpressions;
-using NCalc.Domain;
-using NCalc.Exceptions;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
 
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 /// <summary>
 /// Provides helper methods for evaluating expressions.

@@ -1,7 +1,7 @@
-﻿using NCalc.Domain;
-using NCalc.Factories;
+﻿using NCalcUnity.Domain;
+using NCalcUnity.Factories;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Parser")]
 public class ParserTests

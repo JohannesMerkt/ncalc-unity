@@ -1,13 +1,13 @@
 ﻿using System.Threading;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Handlers;
-using NCalc.Helpers;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Handlers;
+using NCalcUnity.Helpers;
 using BinaryExpression = NCalc.Domain.BinaryExpression;
 using UnaryExpression = NCalc.Domain.UnaryExpression;
 using static NCalc.Helpers.TypeHelper;
 
-namespace NCalc.Visitors;
+namespace NCalcUnity.Visitors;
 
 /// <summary>
 /// Class responsible to asynchronous evaluating <see cref="LogicalExpression"/> objects into CLR objects.

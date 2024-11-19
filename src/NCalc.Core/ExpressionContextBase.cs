@@ -1,6 +1,6 @@
-﻿using NCalc.Helpers;
+﻿using NCalcUnity.Helpers;
 
-namespace NCalc;
+namespace NCalcUnity;
 
 public abstract record ExpressionContextBase
 {

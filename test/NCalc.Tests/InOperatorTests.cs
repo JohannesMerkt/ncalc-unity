@@ -1,4 +1,4 @@
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Evaluations")]
 public class InOperatorTests

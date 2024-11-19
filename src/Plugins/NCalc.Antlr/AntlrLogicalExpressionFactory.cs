@@ -1,9 +1,9 @@
 ﻿using Antlr4.Runtime;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Factories;
 
-namespace NCalc.Antlr;
+namespace NCalcUnity.Antlr;
 
 /// <summary>
 /// Antlr implementation of <see cref="ILogicalExpressionFactory"/>.

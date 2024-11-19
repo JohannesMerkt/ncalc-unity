@@ -1,4 +1,4 @@
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Multiple Threads")]
 public class MultiThreadTests

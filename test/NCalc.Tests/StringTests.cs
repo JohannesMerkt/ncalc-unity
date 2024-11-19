@@ -1,4 +1,4 @@
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Strings")]
 public class StringTests

@@ -1,4 +1,4 @@
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 internal sealed class StringCoercionComparer : EqualityComparer<object?>
 {

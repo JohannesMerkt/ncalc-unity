@@ -1,6 +1,6 @@
-using NCalc.Exceptions;
+using NCalcUnity.Exceptions;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Comparer")]
 public class ComparerTests

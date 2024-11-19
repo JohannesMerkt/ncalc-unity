@@ -1,4 +1,4 @@
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 public enum ComparisonType
 {

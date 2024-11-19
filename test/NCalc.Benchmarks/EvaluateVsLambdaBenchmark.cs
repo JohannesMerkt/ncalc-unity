@@ -1,8 +1,8 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
-using NCalc.Factories;
+using NCalcUnity.Factories;
 
-namespace NCalc.Benchmarks;
+namespace NCalcUnity.Benchmarks;
 
 [RankColumn]
 [CategoriesColumn]

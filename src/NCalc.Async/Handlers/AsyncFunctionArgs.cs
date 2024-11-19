@@ -1,4 +1,4 @@
-namespace NCalc.Handlers;
+namespace NCalcUnity.Handlers;
 
 public class AsyncFunctionArgs(Guid id, AsyncExpression[] parameters) : EventArgs
 {

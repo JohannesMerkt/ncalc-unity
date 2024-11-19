@@ -2,7 +2,7 @@ using System.Data;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
 
-namespace NCalc.Benchmarks;
+namespace NCalcUnity.Benchmarks;
 
 [RankColumn]
 [CategoriesColumn]

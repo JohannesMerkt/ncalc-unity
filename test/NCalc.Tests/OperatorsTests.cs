@@ -1,6 +1,6 @@
-using NCalc.Factories;
+using NCalcUnity.Factories;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Operators")]
 public class OperatorsTests

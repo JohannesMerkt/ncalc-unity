@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using NCalc.Cache;
-using NCalc.Factories;
-using NCalc.Services;
+using NCalcUnity.Cache;
+using NCalcUnity.Factories;
+using NCalcUnity.Services;
 
-namespace NCalc.DependencyInjection;
+namespace NCalcUnity.DependencyInjection;
 
 public static class ServiceCollectionExtensions
 {

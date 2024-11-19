@@ -1,6 +1,6 @@
 ﻿using System.Collections.Frozen;
 
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 public static class MathFunctionHelper
 {

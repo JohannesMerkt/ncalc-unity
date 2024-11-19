@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 
 // ReSharper disable MemberCanBeProtected.Local
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [SuppressMessage("ReSharper", "MemberCanBeMadeStatic.Local", Justification = "Reflection")]
 [SuppressMessage("Performance", "CA1822:Mark members as static", Justification = "Reflection")]

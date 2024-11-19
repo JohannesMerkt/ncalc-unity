@@ -1,4 +1,4 @@
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 public readonly struct ComparisonOptions(CultureInfo cultureInfo, ExpressionOptions options)
 {

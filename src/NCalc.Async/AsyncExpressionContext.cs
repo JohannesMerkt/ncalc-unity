@@ -1,6 +1,6 @@
-using NCalc.Handlers;
+using NCalcUnity.Handlers;
 
-namespace NCalc;
+namespace NCalcUnity;
 
 public record AsyncExpressionContext : ExpressionContextBase
 {

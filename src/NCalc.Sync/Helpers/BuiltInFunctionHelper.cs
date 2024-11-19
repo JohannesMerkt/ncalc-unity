@@ -1,6 +1,6 @@
-using NCalc.Exceptions;
+using NCalcUnity.Exceptions;
 
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 public static class BuiltInFunctionHelper
 {

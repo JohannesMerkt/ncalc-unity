@@ -1,8 +1,8 @@
 #nullable enable
-using NCalc.Exceptions;
-using NCalc.Tests.TestData;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Tests.TestData;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Evaluations")]
 public class EvaluationTests

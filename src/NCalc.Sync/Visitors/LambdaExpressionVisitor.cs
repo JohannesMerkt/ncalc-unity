@@ -1,15 +1,15 @@
 ﻿using System.Numerics;
 using System.Reflection;
 using ExtendedNumerics;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Helpers;
-using NCalc.Reflection;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Helpers;
+using NCalcUnity.Reflection;
 using Linq = System.Linq.Expressions;
 using LinqExpression = System.Linq.Expressions.Expression;
 using LinqParameterExpression = System.Linq.Expressions.ParameterExpression;
 
-namespace NCalc.Visitors;
+namespace NCalcUnity.Visitors;
 
 public sealed class LambdaExpressionVisitor : ILogicalExpressionVisitor<LinqExpression>
 {

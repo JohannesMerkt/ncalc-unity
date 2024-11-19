@@ -1,4 +1,4 @@
-namespace NCalc;
+namespace NCalcUnity;
 
 public class ExpressionFunctionData(Guid id, Expression[] arguments, ExpressionContext context) : IEnumerable<Expression>
 {

@@ -1,6 +1,6 @@
-using NCalc.Domain;
+using NCalcUnity.Domain;
 
-namespace NCalc.Visitors;
+namespace NCalcUnity.Visitors;
 
 /// <summary>
 /// Visitor dedicated to extract <see cref="Function"/> names from a <see cref="LogicalExpression"/>.

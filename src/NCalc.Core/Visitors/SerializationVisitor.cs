@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.ObjectPool;
-using NCalc.Domain;
-using ValueType = NCalc.Domain.ValueType;
+using NCalcUnity.Domain;
+using ValueType = NCalcUnity.Domain.ValueType;
 
-namespace NCalc.Visitors;
+namespace NCalcUnity.Visitors;
 
 /// <summary>
 /// Class responsible to converting a <see cref="LogicalExpression"/> into a <see cref="string"/> representation.

@@ -1,7 +1,7 @@
-using NCalc.Tests.TestData;
+using NCalcUnity.Tests.TestData;
 using Assert = Xunit.Assert;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Math")]
 public class MathsTests

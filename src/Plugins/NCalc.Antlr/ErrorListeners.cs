@@ -1,4 +1,4 @@
-﻿namespace NCalc.Antlr;
+﻿namespace NCalcUnity.Antlr;
 
 using System.Collections.Generic;
 using System.IO;

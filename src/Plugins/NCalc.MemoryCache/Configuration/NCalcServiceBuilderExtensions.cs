@@ -1,9 +1,9 @@
 ﻿#nullable enable
 
 using Microsoft.Extensions.DependencyInjection;
-using NCalc.DependencyInjection;
+using NCalcUnity.DependencyInjection;
 
-namespace NCalc.Cache.Configuration;
+namespace NCalcUnity.Cache.Configuration;
 
 public static class NCalcServiceBuilderExtensions
 {

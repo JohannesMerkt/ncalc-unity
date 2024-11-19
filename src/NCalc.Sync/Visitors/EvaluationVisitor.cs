@@ -1,10 +1,10 @@
-﻿using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Handlers;
-using NCalc.Helpers;
-using static NCalc.Helpers.TypeHelper;
+﻿using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Handlers;
+using NCalcUnity.Helpers;
+using static NCalcUnity.Helpers.TypeHelper;
 
-namespace NCalc.Visitors;
+namespace NCalcUnity.Visitors;
 
 /// <summary>
 /// Class responsible to evaluating <see cref="LogicalExpression"/> objects into CLR objects.

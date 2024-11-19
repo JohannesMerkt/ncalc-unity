@@ -1,3 +1,3 @@
-﻿namespace NCalc.Exceptions;
+﻿namespace NCalcUnity.Exceptions;
 
 public class NCalcEvaluationException(string message) : NCalcException(message);

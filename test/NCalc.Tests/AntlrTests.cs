@@ -1,8 +1,8 @@
-﻿using NCalc.Factories;
-using NCalc.Tests.Fixtures;
-using NCalc.Tests.TestData;
+﻿using NCalcUnity.Factories;
+using NCalcUnity.Tests.Fixtures;
+using NCalcUnity.Tests.TestData;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Plugins")]
 public class AntlrTests(FactoriesWithAntlrFixture fixture) : IClassFixture<FactoriesWithAntlrFixture>

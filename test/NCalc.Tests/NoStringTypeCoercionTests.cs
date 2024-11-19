@@ -1,4 +1,4 @@
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "NoTypeCoercion")]
 public class NoStringTypeCoercionTests

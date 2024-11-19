@@ -1,6 +1,6 @@
-using NCalc.Visitors;
+using NCalcUnity.Visitors;
 
-namespace NCalc.Domain;
+namespace NCalcUnity.Domain;
 
 public sealed class Identifier(string name) : LogicalExpression
 {

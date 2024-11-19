@@ -1,6 +1,6 @@
-using NCalc.Exceptions;
+using NCalcUnity.Exceptions;
 
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 /// <summary>
 /// Provides helper methods for handling parameters.

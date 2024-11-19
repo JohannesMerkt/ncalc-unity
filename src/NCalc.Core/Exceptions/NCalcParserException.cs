@@ -1,4 +1,4 @@
-namespace NCalc.Exceptions;
+namespace NCalcUnity.Exceptions;
 
 public sealed class NCalcParserException : NCalcException
 {

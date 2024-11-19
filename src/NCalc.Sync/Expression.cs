@@ -1,12 +1,12 @@
-﻿using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
-using NCalc.Handlers;
-using NCalc.Helpers;
-using NCalc.Services;
+﻿using NCalcUnity.Cache;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Factories;
+using NCalcUnity.Handlers;
+using NCalcUnity.Helpers;
+using NCalcUnity.Services;
 
-namespace NCalc;
+namespace NCalcUnity;
 
 /// <summary>
 /// This class represents a mathematical or logical expression that can be evaluated.

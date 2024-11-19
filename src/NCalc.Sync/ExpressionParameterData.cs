@@ -1,4 +1,4 @@
-namespace NCalc;
+namespace NCalcUnity;
 
 public class ExpressionParameterData(Guid id, ExpressionContext context)
 {

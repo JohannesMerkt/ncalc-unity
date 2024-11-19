@@ -1,12 +1,12 @@
 using ExtendedNumerics;
-using NCalc.Domain;
-using NCalc.Exceptions;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
 using Parlot;
 using Parlot.Fluent;
 using static Parlot.Fluent.Parsers;
-using Identifier = NCalc.Domain.Identifier;
+using Identifier = NCalcUnity.Domain.Identifier;
 
-namespace NCalc.Parser;
+namespace NCalcUnity.Parser;
 
 /// <summary>
 /// Class responsible for parsing strings into <see cref="LogicalExpression"/> objects.

@@ -1,11 +1,11 @@
 using System.Diagnostics.CodeAnalysis;
-using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
-using NCalc.Visitors;
+using NCalcUnity.Cache;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Factories;
+using NCalcUnity.Visitors;
 
-namespace NCalc;
+namespace NCalcUnity;
 
 /// <summary>
 /// Base class with common utilities of AST parsing and evaluation.

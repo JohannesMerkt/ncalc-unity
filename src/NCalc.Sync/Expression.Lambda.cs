@@ -1,9 +1,9 @@
-﻿using NCalc.Exceptions;
-using NCalc.Visitors;
+﻿using NCalcUnity.Exceptions;
+using NCalcUnity.Visitors;
 using LinqExpression = System.Linq.Expressions.Expression;
 using LinqParameterExpression = System.Linq.Expressions.ParameterExpression;
 
-namespace NCalc;
+namespace NCalcUnity;
 
 public partial class Expression
 {

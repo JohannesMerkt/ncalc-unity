@@ -1,8 +1,8 @@
-﻿using NCalc.Cache;
-using NCalc.Domain;
-using NCalc.Services;
+﻿using NCalcUnity.Cache;
+using NCalcUnity.Domain;
+using NCalcUnity.Services;
 
-namespace NCalc.Factories;
+namespace NCalcUnity.Factories;
 
 /// <summary>
 /// Default <see cref="IExpressionFactory"/> implementation.

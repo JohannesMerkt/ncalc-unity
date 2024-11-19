@@ -1,7 +1,7 @@
-﻿using NCalc.Factories;
-using NCalc.Tests.Fixtures;
+﻿using NCalcUnity.Factories;
+using NCalcUnity.Tests.Fixtures;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "DependencyInjection")]
 public class FactoriesTests(FactoriesFixture fixture) : IClassFixture<FactoriesFixture>

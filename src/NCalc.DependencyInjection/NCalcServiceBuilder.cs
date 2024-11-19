@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NCalc.Cache;
-using NCalc.Factories;
-using NCalc.Services;
+using NCalcUnity.Cache;
+using NCalcUnity.Factories;
+using NCalcUnity.Services;
 
-namespace NCalc.DependencyInjection;
+namespace NCalcUnity.DependencyInjection;
 
 public class NCalcServiceBuilder(IServiceCollection services)
 {

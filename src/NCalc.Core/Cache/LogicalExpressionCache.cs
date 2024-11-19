@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using NCalc.Domain;
-using NCalc.Logging;
+using NCalcUnity.Domain;
+using NCalcUnity.Logging;
 
-namespace NCalc.Cache;
+namespace NCalcUnity.Cache;
 
 public sealed class LogicalExpressionCache(ILogger<LogicalExpressionCache> logger) : ILogicalExpressionCache
 {

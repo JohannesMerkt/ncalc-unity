@@ -1,7 +1,7 @@
-using NCalc.Exceptions;
-using NCalc.Visitors;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Visitors;
 
-namespace NCalc.Domain;
+namespace NCalcUnity.Domain;
 
 public sealed class ValueExpression : LogicalExpression
 {

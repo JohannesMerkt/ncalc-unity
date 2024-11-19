@@ -1,4 +1,4 @@
-namespace NCalc;
+namespace NCalcUnity;
 
 /// <summary>
 /// Options used for both parsing and evaluation of an expression.

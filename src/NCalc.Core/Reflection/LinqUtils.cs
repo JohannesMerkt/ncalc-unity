@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using NCalc.Helpers;
+using NCalcUnity.Helpers;
 using LinqExpression = System.Linq.Expressions.Expression;
 
-namespace NCalc.Reflection;
+namespace NCalcUnity.Reflection;
 
 public static class LinqUtils
 {

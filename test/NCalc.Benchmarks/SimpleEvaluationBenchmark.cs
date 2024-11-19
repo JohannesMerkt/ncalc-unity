@@ -1,9 +1,9 @@
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
-using NCalc.Factories;
-using NCalc.Handlers;
+using NCalcUnity.Factories;
+using NCalcUnity.Handlers;
 
-namespace NCalc.Benchmarks;
+namespace NCalcUnity.Benchmarks;
 
 [RankColumn]
 [CategoriesColumn]

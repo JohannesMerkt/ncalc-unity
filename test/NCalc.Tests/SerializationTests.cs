@@ -1,10 +1,9 @@
-using NCalc.Domain;
-using NCalc.Factories;
-using NCalc.Tests.TestData;
+using NCalcUnity.Domain;
+using NCalcUnity.Factories;
+using NCalcUnity.Tests.TestData;
 using Newtonsoft.Json;
-using JsonSerializer = System.Text.Json.JsonSerializer;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Serialization")]
 public class SerializationTests
@@ -45,16 +44,6 @@ public class SerializationTests
         // Assert
         Assert.Equal(expected, evaluated);
     }
-
-#if NET
-    [Fact]
-    public void SystemTextJsonPolymorphicSerializeAndDeserializeShouldWork()
-    {
-        var expression = LogicalExpressionFactory.Create("1 == 1");
-        var expressionJson = JsonSerializer.Serialize(expression);
-        Assert.True(JsonSerializer.Deserialize<LogicalExpression>(expressionJson) is BinaryExpression);
-    }
-#endif
 
     [Fact]
     public void Binary_Expression_Serialization_Test()

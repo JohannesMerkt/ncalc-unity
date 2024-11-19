@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NCalc.Cache;
-using NCalc.DependencyInjection;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Factories;
-using NCalc.Services;
+using NCalcUnity.Cache;
+using NCalcUnity.DependencyInjection;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Factories;
+using NCalcUnity.Services;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "DependencyInjection")]
 public class ServiceCollectionExtensionsTests

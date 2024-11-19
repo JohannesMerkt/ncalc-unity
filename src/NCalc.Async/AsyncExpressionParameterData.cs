@@ -1,4 +1,4 @@
-namespace NCalc;
+namespace NCalcUnity;
 
 public class AsyncExpressionParameterData(Guid id, AsyncExpressionContext context)
 {

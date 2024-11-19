@@ -1,7 +1,7 @@
-using NCalc.Domain;
-using NCalc.Visitors;
+using NCalcUnity.Domain;
+using NCalcUnity.Visitors;
 
-namespace NCalc.Services;
+namespace NCalcUnity.Services;
 
 /// <inheritdoc cref="IAsyncEvaluationService"/>
 public class AsyncEvaluationService : IAsyncEvaluationService

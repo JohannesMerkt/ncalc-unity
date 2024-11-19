@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 public readonly struct MathMethodInfo
 {

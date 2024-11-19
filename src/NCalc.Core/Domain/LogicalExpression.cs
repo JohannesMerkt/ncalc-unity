@@ -1,24 +1,11 @@
 using System.Diagnostics.Contracts;
-#if NET
-using System.Text.Json.Serialization;
-#endif
-using NCalc.Visitors;
+using NCalcUnity.Visitors;
 
-namespace NCalc.Domain;
+namespace NCalcUnity.Domain;
 
 /// <summary>
 /// Represents an abstract syntax tree (AST) node for logical expressions.
 /// </summary>
-#if NET
-[JsonPolymorphic]
-[JsonDerivedType(typeof(BinaryExpression), typeDiscriminator: "binary")]
-[JsonDerivedType(typeof(Function), typeDiscriminator: "function")]
-[JsonDerivedType(typeof(Identifier), typeDiscriminator: "identifier")]
-[JsonDerivedType(typeof(LogicalExpressionList), typeDiscriminator: "list")]
-[JsonDerivedType(typeof(TernaryExpression), typeDiscriminator: "ternary")]
-[JsonDerivedType(typeof(UnaryExpression), typeDiscriminator: "unary")]
-[JsonDerivedType(typeof(ValueExpression), typeDiscriminator: "value")]
-#endif
 public abstract class LogicalExpression
 {
     public override string ToString()

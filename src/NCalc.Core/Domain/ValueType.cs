@@ -1,4 +1,4 @@
-namespace NCalc.Domain;
+namespace NCalcUnity.Domain;
 
 public enum ValueType
 {

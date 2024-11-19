@@ -1,4 +1,4 @@
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 using Xunit;
 

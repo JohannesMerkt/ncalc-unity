@@ -1,6 +1,6 @@
-using NCalc.Handlers;
+using NCalcUnity.Handlers;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 using Xunit;
 

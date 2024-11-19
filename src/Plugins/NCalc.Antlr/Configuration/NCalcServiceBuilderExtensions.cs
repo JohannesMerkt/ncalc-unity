@@ -1,6 +1,6 @@
-using NCalc.DependencyInjection;
+using NCalcUnity.DependencyInjection;
 
-namespace NCalc.Antlr.Configuration;
+namespace NCalcUnity.Antlr.Configuration;
 
 public static class NCalcServiceBuilderExtensions
 {

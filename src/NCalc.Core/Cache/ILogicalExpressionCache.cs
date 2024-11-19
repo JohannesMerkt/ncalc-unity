@@ -1,6 +1,6 @@
-﻿using NCalc.Domain;
+﻿using NCalcUnity.Domain;
 
-namespace NCalc.Cache;
+namespace NCalcUnity.Cache;
 
 public interface ILogicalExpressionCache
 {

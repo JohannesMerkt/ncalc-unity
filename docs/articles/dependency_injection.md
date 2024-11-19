@@ -30,7 +30,7 @@ builder.Services.AddTransient<MyService>(); // This is just an example.
 You will need to use <xref:NCalc.Factories.IExpressionFactory> to create expressions with injected services.
 
 ```cs
-using NCalc.Factories
+using NCalcUnity.Factories
 
 public class MyService(IExpressionFactory expressionFactory)
 {

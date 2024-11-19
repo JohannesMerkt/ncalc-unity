@@ -1,10 +1,10 @@
 using Microsoft.Extensions.Logging;
-using NCalc.Domain;
-using NCalc.Exceptions;
-using NCalc.Logging;
-using NCalc.Parser;
+using NCalcUnity.Domain;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Logging;
+using NCalcUnity.Parser;
 
-namespace NCalc.Factories;
+namespace NCalcUnity.Factories;
 
 /// <summary>
 /// Class responsible to create <see cref="LogicalExpression"/> objects. Parlot is used for parsing strings.

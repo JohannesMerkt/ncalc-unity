@@ -1,4 +1,4 @@
-namespace NCalc.Handlers;
+namespace NCalcUnity.Handlers;
 
 public class ParameterArgs(Guid id) : EventArgs
 {

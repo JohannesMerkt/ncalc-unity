@@ -1,7 +1,7 @@
-using NCalc.Exceptions;
-using NCalc.Factories;
+using NCalcUnity.Exceptions;
+using NCalcUnity.Factories;
 
-namespace NCalc.Tests;
+namespace NCalcUnity.Tests;
 
 [Trait("Category", "Exceptions")]
 public class ExceptionsTests

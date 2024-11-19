@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using NCalc.Antlr.Configuration;
-using NCalc.Cache.Configuration;
-using NCalc.DependencyInjection;
-using NCalc.Factories;
+using NCalcUnity.Antlr.Configuration;
+using NCalcUnity.Cache.Configuration;
+using NCalcUnity.DependencyInjection;
+using NCalcUnity.Factories;
 
-namespace NCalc.Tests.Fixtures;
+namespace NCalcUnity.Tests.Fixtures;
 
 public abstract class FactoriesFixtureBase
 {

@@ -1,5 +1,5 @@
-﻿using NCalc;
-using NCalc.Exceptions;
+﻿using NCalcUnity;
+using NCalcUnity.Exceptions;
 
 AppContext.SetSwitch("NCalc.Logging.EnableConsole",true);
 

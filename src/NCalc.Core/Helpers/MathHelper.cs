@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
 using ExtendedNumerics;
 
-namespace NCalc.Helpers;
+namespace NCalcUnity.Helpers;
 
 /// <summary>
 /// Utilities for doing mathematical operations between different object types.
