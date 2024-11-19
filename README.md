@@ -1,8 +1,7 @@
 <div align="center">
     <img src="NCalc.png" alt="NCalc" style="width:100px;"/>
     <h1>NCalc with changed Namespace to fix namespace conflicts in Unity</h1>
-    ![image](https://github.com/user-attachments/assets/a1cd96dc-ac34-49db-8428-00135bf483b8)
-
+    <img src="https://github.com/user-attachments/assets/a1cd96dc-ac34-49db-8428-00135bf483b8" alt="Unity Namespace conflict" />
     <a href="https://github.com/ncalc/ncalc/actions/workflows/build-test.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/ncalc/ncalc/build-test.yml" alt="GitHub Actions Workflow Status" />
     </a>
